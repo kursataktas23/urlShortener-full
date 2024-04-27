@@ -1,0 +1,80 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "UrlShortener",
+    "collectionId": "5bd1cfd3-c240-4503-a677-1b8ddc9c8c92",
+    "dateExported": "2024-04-27T19:21:11.909Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "17eaadf2-0d60-4d5f-a4e1-0d0f7403365a",
+            "colId": "5bd1cfd3-c240-4503-a677-1b8ddc9c8c92",
+            "containerId": "",
+            "name": "Create",
+            "url": "http://localhost:5001/api/shortUrl",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-23T20:59:41.301Z",
+            "modified": "2024-04-27T19:19:47.747Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"fullUrl\":\"https://github.com\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "aka"
+            }
+        },
+        {
+            "_id": "b7eff461-553f-45af-bb98-47e0b2e5ba90",
+            "colId": "5bd1cfd3-c240-4503-a677-1b8ddc9c8c92",
+            "containerId": "",
+            "name": "GetAll",
+            "url": "http://localhost:5001/api/shortUrl",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-23T21:01:07.044Z",
+            "modified": "2024-04-27T19:19:57.193Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "aka"
+            }
+        },
+        {
+            "_id": "44689411-9bba-4519-82eb-82bca54bb7d6",
+            "colId": "5bd1cfd3-c240-4503-a677-1b8ddc9c8c92",
+            "containerId": "",
+            "name": "GetById",
+            "url": "http://localhost:5001/api/shortUrl/BkpWav4vic",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-23T21:11:54.485Z",
+            "modified": "2024-04-27T19:20:04.470Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "aka"
+            }
+        },
+        {
+            "_id": "c39e6543-c865-48aa-ab46-ec60ad7c8014",
+            "colId": "5bd1cfd3-c240-4503-a677-1b8ddc9c8c92",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://localhost:5001/api/shortUrl/662d4f52b985bc1837191d16",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-04-23T21:13:01.103Z",
+            "modified": "2024-04-27T19:20:10.276Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "aka"
+            }
+        }
+    ],
+    "ref": "U1HYHEYzk3La0b5Zf87_FysG4vyoAu1iJD4JTjwEOGkTTuQsEsU2PSQMcm9aVXDhQ-keQN0zqi-DSSu791DV8A"
+}
